@@ -22,13 +22,13 @@ DOMAIN-SUFFIX,yandexdisk.net
 DOMAIN-SUFFIX,yandex.ru
 
 # Process Match
-PROCESS-NAME,JDownloader
+PROCESS-NAME,jdownloader
 PROCESS-NAME,jdownloader2
 PROCESS-NAME,xdman
 PROCESS-NAME,idm
-PROCESS-NAME,Dropbox
-PROCESS-NAME,Mega
-PROCESS-NAME,Box
+PROCESS-NAME,dropbox
+PROCESS-NAME,mega
+PROCESS-NAME,box
 PROCESS-PATH,/Applications/JDownloader2.app/Contents/MacOS/JavaApplicationStub
 PROCESS-PATH,/Applications/Folx.app/Contents/MacOS/Folx
 PROCESS-PATH,/Applications/Transmission.app/Contents/MacOS/Transmission
