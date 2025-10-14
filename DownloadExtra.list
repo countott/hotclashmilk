@@ -19,11 +19,14 @@ DOMAIN-SUFFIX,wetransfer.net
 DOMAIN-SUFFIX,yadi.sk
 DOMAIN-SUFFIX,yandexdisk.net
 DOMAIN-SUFFIX,yandex.ru
+PROCESS-NAME,JDownloader
+PROCESS-NAME,jdownloader2
 PROCESS-NAME,xdman
 PROCESS-NAME,idm
 PROCESS-NAME,dropbox
 PROCESS-NAME,mega
 PROCESS-NAME,box
+PROCESS-PATH,/Applications/JDownloader2.app/Contents/MacOS/JavaApplicationStub
 PROCESS-PATH,/Applications/Folx.app/Contents/MacOS/Folx
 PROCESS-PATH,/Applications/Transmission.app/Contents/MacOS/Transmission
 PROCESS-PATH,/Applications/qBittorrent.app/Contents/MacOS/qBittorrent
