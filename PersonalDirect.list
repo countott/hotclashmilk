@@ -21,3 +21,7 @@ DOMAIN-SUFFIX,plex.direct
 # RustDesk
 DOMAIN-SUFFIX,rustdesk.com
 DOMAIN-SUFFIX,rustdesk.net
+
+# 阿里内网
+DOMAIN-SUFFIX,alibaba-inc.com
+DOMAIN-SUFFIX,member.bops.alibaba.com
