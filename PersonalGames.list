@@ -1,1 +1,20 @@
+# Xbox / 多数主机、PC 联机
+DST-PORT,3074
 
+# EA / Origin 联机
+DST-PORT,3659
+
+# PSN 官方推荐端口段
+DST-PORT,3478-3480
+
+# Steam / Dota2 等常用 UDP 范围
+DST-PORT,27000-27100
+
+# R6 专用 UDP 端口
+DST-PORT,6015
+
+# R6 官方推荐 UDP 范围
+DST-PORT,10000-10099
+
+# FO76 官方建议 UDP 范围
+DST-PORT,3000-3010
