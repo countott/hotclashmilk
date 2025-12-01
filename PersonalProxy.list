@@ -1,4 +1,7 @@
-# Plex 控制面 / 账号 / 中转服务
+# Plex
 DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,plex.bz
 DOMAIN-SUFFIX,plexapp.com
+
+# Google Play 更新
+DOMAIN-SUFFIX,googleapis.cn
