@@ -55,3 +55,8 @@ DOMAIN-SUFFIX,widgets.figma.site
 DOMAIN-SUFFIX,plugins.figma.site
 DOMAIN-SUFFIX,static.figma.site
 DOMAIN-SUFFIX,cdn.figma.site
+DOMAIN-SUFFIX,figmaiframepreview.figma.site
+DOMAIN-SUFFIX,v1-figmaiframepreview.figma.site
+DOMAIN-SUFFIX,v2-figmaiframepreview.figma.site
+DOMAIN-SUFFIX,preview.figma.com
+DOMAIN-SUFFIX,embed.figma.com
