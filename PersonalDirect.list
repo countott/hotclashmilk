@@ -22,3 +22,6 @@ DOMAIN-SUFFIX,plex.direct
 # RustDesk
 # DOMAIN-SUFFIX,rustdesk.com
 # DOMAIN-SUFFIX,rustdesk.net
+
+# Figma Site
+# DOMAIN-SUFFIX,figma.site
