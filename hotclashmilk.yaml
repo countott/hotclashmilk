@@ -126,19 +126,7 @@ dns:
       - 223.5.5.5
       - 119.29.29.29
   
-proxy-providers:
-  柚子兔:
-    type: http
-    url: "https://sub.yztcloud.cc/getnodeinfo?token=a058ef4e355fabbf13131ee8da34f1fd"
-    path: ./providers/柚子兔.yaml
-    interval: 28800
-    proxy: 直连
-    size-limit: 0
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-    exclude-filter: "到期|官网|下次|剩余|流量|重置"
+
 
 proxies: []
 
