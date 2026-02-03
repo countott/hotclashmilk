@@ -1,0 +1,56 @@
+payload:
+  # ===================== 平台通用 =====================
+
+  # Xbox / 多数主机、PC 联机
+  - DST-PORT,3074
+
+  # EA / Origin 通用
+  - DST-PORT,3659
+
+  # PSN / Steam P2P（部分）
+  - DST-PORT,3478-3480
+
+  # Steam / Dota2 / 大部分 Steam 联机
+  - DST-PORT,27000-27100
+
+  # Steam P2P 语音 / 会话
+  - DST-PORT,4379-4380
+
+  # Xbox Live 额外端口
+  - DST-PORT,88
+  - DST-PORT,500
+  - DST-PORT,3544
+  - DST-PORT,4500
+
+  # ===================== 特定游戏 / 发行商 =====================
+
+  # Rainbow Six: Siege
+  - DST-PORT,6015
+  - DST-PORT,10000-10099
+
+  # Fallout 76
+  - DST-PORT,3000-3010
+
+  # Apex Legends / 其他 EA FPS
+  - DST-PORT,1024-1124
+  - DST-PORT,3216
+  - DST-PORT,9960-9969
+  - DST-PORT,18000
+  - DST-PORT,18060
+  - DST-PORT,18120
+  - DST-PORT,27900
+  - DST-PORT,28910
+  - DST-PORT,29900
+  # - DST-PORT,37000-40000
+
+  # Destiny 2
+  - DST-PORT,3097
+
+  # The Elder Scrolls Online（含 Steam 版）
+  - DST-PORT,24100-24131
+  - DST-PORT,24300-24331
+  - DST-PORT,24500-24507
+
+  # GTA Online / Max Payne 3（Rockstar Social Club）
+  - DST-PORT,6672
+  - DST-PORT,61455-61458
