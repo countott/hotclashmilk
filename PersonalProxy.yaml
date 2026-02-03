@@ -1,0 +1,8 @@
+payload:
+  # Plex
+  - DOMAIN-SUFFIX,plex.tv
+  - DOMAIN-SUFFIX,plex.bz
+  - DOMAIN-SUFFIX,plexapp.com
+
+  # 柚子兔
+  - DOMAIN-SUFFIX,yzt.lol
