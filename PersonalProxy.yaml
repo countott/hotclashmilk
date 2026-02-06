@@ -10,6 +10,6 @@ payload:
   
   # YouTube 历史记录同步
   - DOMAIN,youtubei.googleapis.com
-  - DOMAIN,s.youtube.com
+  #- DOMAIN,s.youtube.com
   #- DOMAIN-SUFFIX,youtube.googleapis.com
   #- DOMAIN-SUFFIX,googleapis.com
