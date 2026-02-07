@@ -23,3 +23,8 @@ payload:
 
   # Figma Site
   - DOMAIN-SUFFIX,figma.site
+
+  # 阿里钉
+  - DOMAIN,aliding-log-cn-hangzhou.log.aliyuncs.com
+  - DOMAIN,beacon-api.aliyuncs.com
+  #- DOMAIN-SUFFIX,log.aliyuncs.com
