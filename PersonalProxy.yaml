@@ -12,4 +12,4 @@ payload:
   - DOMAIN,s.youtube.com
 
   # Ookla 测速
-  -GEOSITE,ookla-speedtest
+  - GEOSITE,ookla-speedtest
