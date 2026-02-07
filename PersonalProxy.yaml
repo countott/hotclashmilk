@@ -10,3 +10,6 @@ payload:
   
   # YouTube 历史记录同步
   - DOMAIN,s.youtube.com
+
+  # Ookla 测速
+  -GEOSITE,ookla-speedtest
