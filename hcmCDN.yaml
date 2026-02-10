@@ -1,20 +1,18 @@
 payload:
-  
   # YouTube 视频流
-  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,googlevideo.com
 
-  # Twitch 直播流
-  - DOMAIN-SUFFIX,ttvnw.net
-  - DOMAIN-SUFFIX,jtvnw.net
-  
-  # Twitter 图片与视频
-  - DOMAIN-SUFFIX,twimg.com
-  
-  # Instagram & Facebook 静态资源
-  - DOMAIN-SUFFIX,cdninstagram.com
-  - DOMAIN-SUFFIX,fbcdn.net
-  
-  # Telegram 媒体文件 (可能影响消息接收)
-  - DOMAIN-SUFFIX,telegram-cdn.org
-  - DOMAIN-SUFFIX,cdn-telegram.org
+  # Twitch 直播流
+  - DOMAIN-SUFFIX,ttvnw.net
+  - DOMAIN-SUFFIX,jtvnw.net
 
+  # Twitter 图片与视频
+  - DOMAIN-SUFFIX,twimg.com
+
+  # Instagram & Facebook 静态资源
+  - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN-SUFFIX,fbcdn.net
+
+  # Telegram 媒体文件 (可能影响消息接收)
+  - DOMAIN-SUFFIX,telegram-cdn.org
+  - DOMAIN-SUFFIX,cdn-telegram.org
