@@ -14,7 +14,7 @@ payload:
   - DOMAIN-SUFFIX,cdninstagram.com
   - DOMAIN-SUFFIX,fbcdn.net
   
-  # 5. Telegram 媒体文件 (可能影响消息接收)
+  # Telegram 媒体文件 (可能影响消息接收)
   - DOMAIN-SUFFIX,telegram-cdn.org
   - DOMAIN-SUFFIX,cdn-telegram.org
 
