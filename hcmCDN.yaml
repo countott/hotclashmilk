@@ -14,5 +14,5 @@ payload:
   - DOMAIN-SUFFIX,fbcdn.net
 
   # Telegram 媒体文件 (可能影响消息接收)
-  - DOMAIN-SUFFIX,telegram-cdn.org
-  - DOMAIN-SUFFIX,cdn-telegram.org
+  #- DOMAIN-SUFFIX,telegram-cdn.org
+  #- DOMAIN-SUFFIX,cdn-telegram.org
