@@ -1,34 +1,61 @@
 payload:
   # 自家入口域名
-  - DOMAIN-SUFFIX,lyx.fan
+  - 'DOMAIN-SUFFIX,lyx.fan'
 
   # 反向代理端口
-  - DST-PORT,202
-  - DST-PORT,203
-  - DST-PORT,204
-  - DST-PORT,2020
-  - DST-PORT,303
-  - DST-PORT,3030
-  - DST-PORT,404
-  - DST-PORT,4040
-  - DST-PORT,505
-  - DST-PORT,5050
-  - DST-PORT,606
-  - DST-PORT,6060
-  - DST-PORT,707
-  - DST-PORT,7070
-  - DST-PORT,32400
+  - 'DST-PORT,202'
+  - 'DST-PORT,203'
+  - 'DST-PORT,204'
+  - 'DST-PORT,2020'
+  - 'DST-PORT,303'
+  - 'DST-PORT,3030'
+  - 'DST-PORT,404'
+  - 'DST-PORT,4040'
+  - 'DST-PORT,505'
+  - 'DST-PORT,5050'
+  - 'DST-PORT,606
+  - 'DST-PORT,6060'
+  - 'DST-PORT,707
+  - 'DST-PORT,7070'
+  - 'DST-PORT,32400'
 
   # Plex 直连域名
-  - DOMAIN-SUFFIX,plex.direct
+  - 'DOMAIN-SUFFIX,plex.direct'
 
   # Figma Site
-  - DOMAIN-SUFFIX,figma.site
+  - 'DOMAIN-SUFFIX,figma.site'
 
   # 阿里钉
-  #- DOMAIN,aliding-log-cn-hangzhou.log.aliyuncs.com
-  #- DOMAIN,beacon-api.aliyuncs.com
-  #- DOMAIN-SUFFIX,log.aliyuncs.com
+  #- 'DOMAIN,aliding-log-cn-hangzhou.log.aliyuncs.com'
+  #- 'DOMAIN,beacon-api.aliyuncs.com'
+  #- 'DOMAIN-SUFFIX,log.aliyuncs.com'
 
   # 醒图
-  - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+  - 'DOMAIN-SUFFIX,pangolin-sdk-toutiao.com'
+
+  # Android
+  - 'DOMAIN,connectivitycheck.gstatic.com'
+  - 'DOMAIN,clients3.google.com'
+
+  # MIUI
+  - 'DOMAIN,connect.rom.miui.com'
+
+  # Apple
+  - 'DOMAIN,gs.apple.com'
+
+  # Windows
+  - 'DOMAIN,www.msftncsi.com'
+  - 'DOMAIN,dns.msftncsi.com'
+  - 'DOMAIN,www.msftconnecttest.com'
+  - 'DOMAIN,ipv6.msftconnecttest.com'
+
+  # Nintendo
+  - 'DOMAIN,ctest.cdn.nintendo.net'
+  - 'DOMAIN,ctest-dl-lp1.cdn.nintendo.net'
+  - 'DOMAIN,ctest-ul-lp1.cdn.nintendo.net'
+  - 'DOMAIN,api.hac.lp1.ctest.srv.nintendo.net'
+  - 'DOMAIN,ctest.p01.ctest.srv.nintendo.net'
+  - 'DOMAIN,ctest-ipv6.p01.ctest.srv.nintendo.net'
+  - 'DOMAIN,ctest-dl.p01.lp1.ctest.srv.nintendo.net'
+  - 'DOMAIN,ctest-ul.p01.lp1.ctest.srv.nintendo.net'
+  - 'DOMAIN,api.p01.lp1.ctest.srv.nintendo.net'
