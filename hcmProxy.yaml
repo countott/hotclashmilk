@@ -1,9 +1,9 @@
 payload:
   
   # Plex
-  - DOMAIN-SUFFIX,plex.tv
-  - DOMAIN-SUFFIX,plex.bz
-  - DOMAIN-SUFFIX,plexapp.com
+  - 'DOMAIN-SUFFIX,plex.tv'
+  - 'DOMAIN-SUFFIX,plex.bz'
+  - 'DOMAIN-SUFFIX,plexapp.com'
   
   # YouTube 历史记录同步
-  - DOMAIN,s.youtube.com
+  - 'DOMAIN,s.youtube.com'
