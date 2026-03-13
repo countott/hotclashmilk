@@ -29,6 +29,7 @@ payload:
   #- 'DOMAIN,aliding-log-cn-hangzhou.log.aliyuncs.com'
   #- 'DOMAIN,beacon-api.aliyuncs.com'
   #- 'DOMAIN-SUFFIX,log.aliyuncs.com'
+  - 'DOMAIN-SUFFIX,alibaba-inc.com'
 
   # 醒图
   - 'DOMAIN-SUFFIX,pangolin-sdk-toutiao.com'
