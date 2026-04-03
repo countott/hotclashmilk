@@ -1,5 +1,4 @@
-payload:
-  
+payload:  
   # Plex
   - 'DOMAIN-SUFFIX,plex.tv'
   - 'DOMAIN-SUFFIX,plex.bz'
@@ -7,3 +6,7 @@ payload:
   
   # YouTube 历史记录同步
   - 'DOMAIN,s.youtube.com'
+    
+  # Rustdesk
+  - 'DOMAIN-SUFFIX,rustdesk.com'
+  - 'DOMAIN-SUFFIX,rustdesk.net'
