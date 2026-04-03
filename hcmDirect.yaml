@@ -33,3 +33,7 @@ payload:
 
   # 醒图
   - 'DOMAIN-SUFFIX,pangolin-sdk-toutiao.com'
+    
+  # Rustdesk
+  - 'DOMAIN-SUFFIX,rustdesk.com'
+  - 'DOMAIN-SUFFIX,rustdesk.net'
