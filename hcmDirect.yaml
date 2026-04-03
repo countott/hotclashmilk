@@ -18,7 +18,7 @@ payload:
   - 'DST-PORT,707
   - 'DST-PORT,7070'
   - 'DST-PORT,32400'
-  - 'DST-PORT,21115-21119'
+  
   # Plex 直连域名
   - 'DOMAIN-SUFFIX,plex.direct'
 
@@ -35,5 +35,5 @@ payload:
   - 'DOMAIN-SUFFIX,pangolin-sdk-toutiao.com'
     
   # Rustdesk
-  - 'DOMAIN-SUFFIX,rustdesk.com'
-  - 'DOMAIN-SUFFIX,rustdesk.net'
+  - 'DST-PORT,21115-21119'
+  - 'DOMAIN-KEYWORD,rustdesk'
