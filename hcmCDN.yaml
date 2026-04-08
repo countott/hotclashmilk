@@ -4,16 +4,16 @@ payload:
   - 'SRC-IP-CIDR,fddd:dddd:dddd::3/128'
   
   # YouTube video流
-  - 'DOMAIN-SUFFIX,googlevideo.com'
-  - 'DOMAIN-SUFFIX,video.google.com'
-  - 'DOMAIN-SUFFIX,ytimg.com'
+  #- 'DOMAIN-SUFFIX,googlevideo.com'
+  #- 'DOMAIN-SUFFIX,video.google.com'
+  #- 'DOMAIN-SUFFIX,ytimg.com'
   
   # Twitch直播流
-  - 'DOMAIN-SUFFIX,jtvnw.net'
-  - 'DOMAIN-SUFFIX,live-video.net'
-  - 'DOMAIN-SUFFIX,ttvnw.net'
-  - 'DOMAIN-SUFFIX,twitchcdn.net'
-  - 'DOMAIN-SUFFIX,twitchsvc.net'
+  #- 'DOMAIN-SUFFIX,jtvnw.net'
+  #- 'DOMAIN-SUFFIX,live-video.net'
+  #- 'DOMAIN-SUFFIX,ttvnw.net'
+  #- 'DOMAIN-SUFFIX,twitchcdn.net'
+  #- 'DOMAIN-SUFFIX,twitchsvc.net'
   
   # Netflix流媒体
   #- 'DOMAIN-SUFFIX,nflxvideo.net'
@@ -68,17 +68,17 @@ payload:
   #- 'DOMAIN-SUFFIX,tv.apple.com'
   
   # Facebook / Instagram 媒体
-  - 'DOMAIN-SUFFIX,fbcdn.net'
-  - 'DOMAIN-SUFFIX,cdninstagram.com'
+  #- 'DOMAIN-SUFFIX,fbcdn.net'
+  #- 'DOMAIN-SUFFIX,cdninstagram.com'
 
   # Reddit 媒体
-  - 'DOMAIN-SUFFIX,redditmedia.com'
-  - 'DOMAIN-SUFFIX,reddituploads.com'
+  #- 'DOMAIN-SUFFIX,redditmedia.com'
+  #- 'DOMAIN-SUFFIX,reddituploads.com'
 
   # Discord 附件 / 媒体
-  - 'DOMAIN-SUFFIX,discord.media'
-  - 'DOMAIN-SUFFIX,discordcdn.com'
-  - 'DOMAIN-SUFFIX,discordapp.net'
+  #- 'DOMAIN-SUFFIX,discord.media'
+  #- 'DOMAIN-SUFFIX,discordcdn.com'
+  #- 'DOMAIN-SUFFIX,discordapp.net'
 
   # LinkedIn 资源 CDN（按需）
   #- 'DOMAIN-SUFFIX,licdn.com'
