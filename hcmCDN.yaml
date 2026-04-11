@@ -7,7 +7,10 @@ payload:
   #- 'DOMAIN-SUFFIX,googlevideo.com'
   #- 'DOMAIN-SUFFIX,video.google.com'
   #- 'DOMAIN-SUFFIX,ytimg.com'
-  
+
+  # 柚子兔机场服
+  - 'DOMAIN-SUFFIX,yzt.lol'
+
   # Twitch直播流
   #- 'DOMAIN-SUFFIX,jtvnw.net'
   #- 'DOMAIN-SUFFIX,live-video.net'
