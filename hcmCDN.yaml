@@ -10,7 +10,10 @@ payload:
 
   # 柚子兔机场服
   - 'DOMAIN-SUFFIX,yzt.lol'
-
+  
+  # 蘑菇服务器
+  - 'DOMAIN,ppa.coouu.cn'
+  
   # Twitch直播流
   #- 'DOMAIN-SUFFIX,jtvnw.net'
   #- 'DOMAIN-SUFFIX,live-video.net'
