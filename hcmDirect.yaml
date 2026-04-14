@@ -108,3 +108,6 @@ payload:
   # 中行
   - 'DOMAIN,open.bankofchina.com'
   - 'DOMAIN,open.boc.cn'
+
+  # 蘑菇服务器
+  - 'DOMAIN,ppa.coouu.cn'
