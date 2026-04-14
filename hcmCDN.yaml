@@ -9,7 +9,7 @@ payload:
   #- 'DOMAIN-SUFFIX,ytimg.com'
 
   # 柚子兔机场服
-  - 'DOMAIN-SUFFIX,yzt.lol'
+  - 'DOMAIN,emby.yzt.lol'
   
   # 蘑菇服务器
   - 'DOMAIN,ppa.coouu.cn'
