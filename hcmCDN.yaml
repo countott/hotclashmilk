@@ -15,7 +15,7 @@ payload:
   - 'DOMAIN,ppa.coouu.cn'
   
   # 云海服务器
-  - 'emby.oceancloud.asia'
+  - 'DOMAIN,emby.oceancloud.asia'
   
   # Twitch直播流
   #- 'DOMAIN-SUFFIX,jtvnw.net'
