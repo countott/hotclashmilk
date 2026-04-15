@@ -14,6 +14,9 @@ payload:
   # 蘑菇服务器
   - 'DOMAIN,ppa.coouu.cn'
   
+  # 云海服务器
+  - 'emby.oceancloud.asia'
+  
   # Twitch直播流
   #- 'DOMAIN-SUFFIX,jtvnw.net'
   #- 'DOMAIN-SUFFIX,live-video.net'
