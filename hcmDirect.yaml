@@ -36,7 +36,7 @@ payload:
   - 'DOMAIN-SUFFIX,alibaba-inc.com'
 
   # 醒图
-  - 'DOMAIN-SUFFIX,pangolin-sdk-toutiao.com'
+  - 'DOMAIN,mon.zijieapi.com'
     
   # Rustdesk
   - 'DST-PORT,21115-21119'
@@ -109,5 +109,5 @@ payload:
   - 'DOMAIN,open.bankofchina.com'
   - 'DOMAIN,open.boc.cn'
 
-  # 蘑菇服务器
-  - 'DOMAIN,ppa.coouu.cn'
+  # 小米安装包检测
+  - 'DOMAIN,api.installer.xiaomi.com'
