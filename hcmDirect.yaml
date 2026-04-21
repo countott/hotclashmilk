@@ -7,21 +7,21 @@ payload:
   - 'SRC-IP-CIDR,fddd:dddd:dddd::112/128'
   
   # 反向代理端口
-  - 'DST-PORT,202'
-  - 'DST-PORT,203'
-  - 'DST-PORT,204'
-  - 'DST-PORT,2020'
-  - 'DST-PORT,303'
-  - 'DST-PORT,3030'
-  - 'DST-PORT,404'
-  - 'DST-PORT,4040'
-  - 'DST-PORT,505'
-  - 'DST-PORT,5050'
-  - 'DST-PORT,606
-  - 'DST-PORT,6060'
-  - 'DST-PORT,707
-  - 'DST-PORT,7070'
-  - 'DST-PORT,32400'
+  #- 'DST-PORT,202'
+  #- 'DST-PORT,203'
+  #- 'DST-PORT,204'
+  #- 'DST-PORT,2020'
+  #- 'DST-PORT,303'
+  #- 'DST-PORT,3030'
+  #- 'DST-PORT,404'
+  #- 'DST-PORT,4040'
+  #- 'DST-PORT,505'
+  #- 'DST-PORT,5050'
+  #- 'DST-PORT,606
+  #- 'DST-PORT,6060'
+  #- 'DST-PORT,707
+  #- 'DST-PORT,7070'
+  #- 'DST-PORT,32400'
   
   # Plex 直连域名
   - 'DOMAIN-SUFFIX,plex.direct'
