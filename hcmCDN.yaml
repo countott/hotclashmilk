@@ -10,7 +10,7 @@ payload:
 
   # Emby服务器
   - 'DOMAIN,emby.yzt.lol'
-  - 'DOMAIN,ppa.coouu.cn'
+  - 'DOMAIN,wfa.vban.xyz'
   - 'DOMAIN,emby.oceancloud.asia'
   
   # Twitch直播流
