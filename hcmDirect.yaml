@@ -36,7 +36,7 @@ payload:
   - 'DOMAIN-SUFFIX,alibaba-inc.com'
 
   # 醒图
-  - 'DOMAIN,mon.zijieapi.com'
+  #- 'DOMAIN,mon.zijieapi.com'
     
   # Rustdesk
   - 'DST-PORT,21115-21119'
