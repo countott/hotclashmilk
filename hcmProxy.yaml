@@ -6,3 +6,7 @@ payload:
   
   # YouTube 历史记录同步
   - 'DOMAIN,s.youtube.com'
+
+  # 广告测试
+  - 'DOMAIN,adblock.turtlecute.org'
+  - 'DOMAIN,paileactivist.github.io'
