@@ -9,9 +9,9 @@ payload:
   #- 'DOMAIN-SUFFIX,ytimg.com'
 
   # Emby服务器
-  - 'DOMAIN,emby.yzt.lol'
-  - 'DOMAIN,wfa.vban.xyz'
-  - 'DOMAIN,emby.oceancloud.asia'
+  - 'DOMAIN-SUFFIX,yzt.lol'
+  - 'DOMAIN-SUFFIX,vban.xyz'
+  - 'DOMAIN-SUFFIX,oceancloud.asia'
   
   # Twitch直播流
   #- 'DOMAIN-SUFFIX,jtvnw.net'
