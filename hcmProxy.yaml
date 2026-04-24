@@ -10,3 +10,6 @@ payload:
   # 广告测试
   - 'DOMAIN,adblock.turtlecute.org'
   - 'DOMAIN,paileactivist.github.io'
+
+  # Vanced
+  - 'DOMAIN-SUFFIX,vanced.to'
