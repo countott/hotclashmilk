@@ -10,6 +10,7 @@ payload:
 
   # Emby服务器
   - 'DOMAIN-SUFFIX,yzt.lol'
+  - 'DOMAIN-SUFFIX,yzt.moe'
   - 'DOMAIN-SUFFIX,vban.xyz'
   - 'DOMAIN-SUFFIX,oceancloud.asia'
   
