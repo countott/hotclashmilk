@@ -17,7 +17,10 @@ payload:
   
   # 醒图
   #- 'DOMAIN,mon.zijieapi.com'
-    
+
+  # 内网穿透
+  - 'DOMAIN-SUFFIX,88frp.com'
+  
   # Rustdesk
   - 'DST-PORT,21115-21119'
   - 'DOMAIN-SUFFIX,rustdesk.com'
