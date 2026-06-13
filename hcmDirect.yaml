@@ -1,6 +1,9 @@
 payload:
   # 自家入口域名
   - 'DOMAIN-SUFFIX,lyx.fan'
+
+  # BT下载机
+  - 'DST-PORT,51111'
   
   # Plex 直连域名
   - 'DOMAIN-SUFFIX,plex.direct'
