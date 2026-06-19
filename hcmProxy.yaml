@@ -13,3 +13,7 @@ payload:
 
   # Vanced
   - 'DOMAIN-SUFFIX,vanced.to'
+
+  # Bitwarden
+  - 'DOMAIN-SUFFIX,bitwarden.net'
+  - 'DOMAIN-SUFFIX,bitwarden.com'
