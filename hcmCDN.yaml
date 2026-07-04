@@ -1,6 +1,6 @@
 payload:
   # NAS加速
-  - 'SRC-IP-CIDR,192.168.7.7/32'
+  #- 'SRC-IP-CIDR,192.168.7.7/32'
   
   # YouTube video流
   #- 'DOMAIN-SUFFIX,googlevideo.com'
