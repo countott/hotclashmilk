@@ -1,6 +1,6 @@
 payload:
   # NAS加速
-  #- 'SRC-IP-CIDR,192.168.7.7/32'
+  - 'SRC-IP-CIDR,192.168.7.7/32'
   
   # YouTube video流
   #- 'DOMAIN-SUFFIX,googlevideo.com'
@@ -8,10 +8,8 @@ payload:
   #- 'DOMAIN-SUFFIX,ytimg.com'
 
   # Emby服务器
-  - 'DOMAIN-SUFFIX,yzt.lol'
-  - 'DOMAIN-SUFFIX,yzt.moe'
-  - 'DOMAIN-SUFFIX,vban.xyz'
-  - 'DOMAIN-SUFFIX,oceancloud.asia'
+  #- 'DOMAIN-SUFFIX,yzt.lol'
+  #- 'DOMAIN-SUFFIX,yzt.moe'
   
   # Twitch直播流
   #- 'DOMAIN-SUFFIX,jtvnw.net'
