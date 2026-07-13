@@ -1,6 +1,6 @@
 payload:
   # 自家入口域名
-  #- 'DOMAIN-SUFFIX,lyx.fan'
+  - 'DOMAIN-SUFFIX,lyx.fan'
 
   # BT下载机
   - 'DST-PORT,51111'
