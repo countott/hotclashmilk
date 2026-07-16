@@ -16,6 +16,7 @@ payload:
   #- 'DOMAIN,beacon-api.aliyuncs.com'
   #- 'DOMAIN-SUFFIX,log.aliyuncs.com'
   - 'DOMAIN-SUFFIX,alibaba-inc.com'
+  - 'DOMAIN-SUFFIX,accio.com'
   - 'IP-CIDR,30.159.32.0/19,no-resolve'
   
   # 醒图
