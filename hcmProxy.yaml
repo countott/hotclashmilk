@@ -17,3 +17,6 @@ payload:
   # Bitwarden
   - 'DOMAIN-SUFFIX,bitwarden.net'
   - 'DOMAIN-SUFFIX,bitwarden.com'
+
+  # 腾讯文档
+  - 'DOMAIN-SUFFIX,docs.qq.com'
