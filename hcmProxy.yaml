@@ -20,3 +20,4 @@ payload:
 
   # 腾讯文档
   - 'DOMAIN-SUFFIX,docs.qq.com'
+  - 'DOMAIN-SUFFIX,qq.com'
