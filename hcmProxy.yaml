@@ -1,4 +1,7 @@
 payload:  
+  # 开发防封
+  - 'DOMAIN,sync.lyx.fan'
+  
   # Plex
   - 'DOMAIN-SUFFIX,plex.tv'
   - 'DOMAIN-SUFFIX,plex.bz'
