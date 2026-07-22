@@ -1,9 +1,6 @@
 payload:
   # 自家入口域名
   - 'DOMAIN-SUFFIX,lyx.fan'
-
-  # BT下载机
-  - 'DST-PORT,51111'
   
   # Plex 直连域名
   - 'DOMAIN-SUFFIX,plex.direct'
@@ -17,7 +14,6 @@ payload:
   #- 'DOMAIN-SUFFIX,log.aliyuncs.com'
   - 'DOMAIN-SUFFIX,alibaba-inc.com'
   - 'DOMAIN-SUFFIX,accio.com'
-  - 'IP-CIDR,30.159.32.0/19,no-resolve'
   
   # 醒图
   #- 'DOMAIN,mon.zijieapi.com'
