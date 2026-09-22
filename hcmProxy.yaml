@@ -18,5 +18,53 @@ payload:
   - 'DOMAIN-SUFFIX,bitwarden.net'
   - 'DOMAIN-SUFFIX,bitwarden.com'
 
+  # 飞书 / 飞书招聘 / 飞书会议
+  # 飞书主域；包含 hire.feishu.cn、*.jobs.feishu.cn、open.feishu.cn、会议 WSS 等
+  - 'DOMAIN-SUFFIX,feishu.cn'
+  - 'DOMAIN-SUFFIX,feishu.net'
+  - 'DOMAIN-SUFFIX,feishucdn.com'
+  - 'DOMAIN-SUFFIX,feishu-3rd-party-services.com'
+  - 'DOMAIN-SUFFIX,feishuimg.com'
+  - 'DOMAIN-SUFFIX,feishuapp.cn'
+  - 'DOMAIN-SUFFIX,getfeishu.cn'
+  - 'DOMAIN-SUFFIX,feishupkg.com'
+  - 'DOMAIN-SUFFIX,feelgood.cn'
+
+  # Lark / 飞书国际及 CDN
+  - 'DOMAIN-SUFFIX,larkoffice.com'
+  - 'DOMAIN-SUFFIX,larksuite.com'
+  - 'DOMAIN-SUFFIX,larksuitecdn.com'
+
+  # 飞书依赖的字节 CDN / API / RTC 基础设施
+  - 'DOMAIN-SUFFIX,zjurl.cn'
+  - 'DOMAIN-SUFFIX,snssdk.com'
+  - 'DOMAIN-SUFFIX,ctobsnssdk.com'
+  - 'DOMAIN-SUFFIX,pstatp.com'
+  - 'DOMAIN-SUFFIX,byteimg.com'
+  - 'DOMAIN-SUFFIX,bytefcdn.com'
+  - 'DOMAIN-SUFFIX,bytedance.net'
+  - 'DOMAIN-SUFFIX,bytedance.com'
+  - 'DOMAIN-SUFFIX,byted-static.com'
+  - 'DOMAIN-SUFFIX,bytegoofy.com'
+  - 'DOMAIN-SUFFIX,bytehwm.com'
+  - 'DOMAIN-SUFFIX,ttwebview.com'
+  - 'DOMAIN-SUFFIX,bytegecko.com'
+  - 'DOMAIN-SUFFIX,bytescm.com'
+  - 'DOMAIN-SUFFIX,kundou.cn'
+  - 'DOMAIN-SUFFIX,bytetos.com'
+  - 'DOMAIN-SUFFIX,zijieapi.com'
+  - 'DOMAIN-SUFFIX,byteeffecttos.com'
+  - 'DOMAIN-SUFFIX,bytednsdoc.com'
+  - 'DOMAIN-SUFFIX,bytedanceapi.com'
+  - 'DOMAIN-SUFFIX,baseopendev.com'
+  - 'DOMAIN-SUFFIX,bytevcloud.com'
+  - 'DOMAIN-SUFFIX,bdurl.net'
+  - 'DOMAIN-SUFFIX,365yg.com'
+  - 'DOMAIN-SUFFIX,toutiaocloud.com'
+  - 'DOMAIN-SUFFIX,volcengine.com'
+  - 'DOMAIN-SUFFIX,volces.com'
+  - 'DOMAIN-SUFFIX,volccdn.com'
+  - 'DOMAIN-SUFFIX,volcvideo.com'
+
   # 腾讯文档
   #- 'DOMAIN-SUFFIX,docs.qq.com'
