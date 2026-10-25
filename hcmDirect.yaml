@@ -1,6 +1,6 @@
 payload:
   # 家庭公网入口：根域、Plex、相册、订阅
-  - 'DOMAIN,lyx.fan'
+  - 'DOMAIN-SUFFIX,lyx.fan'
   - 'DOMAIN,plex.lyx.fan'
   - 'DOMAIN,photo.lyx.fan'
   - 'DOMAIN,sub.lyx.fan'
