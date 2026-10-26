@@ -4,7 +4,6 @@ payload:
   - 'DOMAIN,plex.lyx.fan'
   - 'DOMAIN,photo.lyx.fan'
   - 'DOMAIN,sub.lyx.fan'
-  - 'DOMAIN,t-bone.lyx.fan'  
   - 'IP-CIDR,103.82.54.72/32'
   
   # 已通过 WireGuard 回家的客户端，避免再次送入回家隧道
