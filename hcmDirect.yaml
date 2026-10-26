@@ -3,6 +3,8 @@ payload:
   - 'DOMAIN,lyx.fan'
   - 'DOMAIN,sub.lyx.fan'
   - 'IP-CIDR,103.82.54.72/32'
+  # FRP control stays direct; HTTPS 443 still follows domain routing.
+  - 'AND,((IP-CIDR,38.76.181.151/32),(DST-PORT,1210))'
   
   # 已通过 WireGuard 回家的客户端，避免再次送入回家隧道
   - 'SRC-IP-CIDR,10.0.0.0/24'
