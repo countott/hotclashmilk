@@ -7,6 +7,7 @@ payload:
   - 'DOMAIN,tv.lyx.fan'
   - 'DOMAIN,us.lyx.fan'
   - 'DOMAIN,hcm.lyx.fan'
+  - 'DOMAIN,t-bone.lyx.fan'
 
   # 家庭内网
   - 'IP-CIDR,192.168.7.0/24,no-resolve'
