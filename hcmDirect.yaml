@@ -1,8 +1,6 @@
 payload:
-  # 家庭公网入口：根域、Plex、相册、订阅
+  # 家庭公网入口：根域、订阅
   - 'DOMAIN,lyx.fan'
-  - 'DOMAIN,plex.lyx.fan'
-  - 'DOMAIN,photo.lyx.fan'
   - 'DOMAIN,sub.lyx.fan'
   - 'IP-CIDR,103.82.54.72/32'
   
