@@ -1,39 +1,32 @@
 payload:
-  # 家庭公网入口：根域、订阅
-  - 'DOMAIN,lyx.fan'
-  - 'DOMAIN,sub.lyx.fan'
-  - 'IP-CIDR,103.82.54.72/32'
-  # FRP control stays direct; HTTPS 443 still follows domain routing.
-  - 'AND,((IP-CIDR,38.76.181.151/32),(DST-PORT,1210))'
-  
-  # 已通过 WireGuard 回家的客户端，避免再次送入回家隧道
+  # WireGuard 来源直接放行，避免再次进入回家隧道
   - 'SRC-IP-CIDR,10.0.0.0/24'
   - 'SRC-IP-CIDR,fd00::/64'
 
-  # 家中局域网访问家庭内网
-  - 'AND,((SRC-IP-CIDR,fddd::/60),(IP-CIDR6,fddd::/48))'
-  - 'AND,((SRC-IP-CIDR,192.168.7.0/24),(IP-CIDR,192.168.7.0/24))'
+  # 家庭公网入口：仅根域和订阅，不扩大到整个域名后缀
+  - 'DOMAIN,lyx.fan'
+  - 'DOMAIN,sub.lyx.fan'
 
-  # 公司内网
+  # 公司相关域名
   #- 'DOMAIN,aliding-log-cn-hangzhou.log.aliyuncs.com'
   #- 'DOMAIN,beacon-api.aliyuncs.com'
   #- 'DOMAIN-SUFFIX,log.aliyuncs.com'
   - 'DOMAIN-SUFFIX,alibaba-inc.com'
   - 'DOMAIN-SUFFIX,accio.com'
 
-  # Plex 直连域名
-  #- 'DOMAIN-SUFFIX,plex.direct'
-
-  # 醒图
-  #- 'DOMAIN,mon.zijieapi.com'
-
   # 内网穿透
   - 'DOMAIN-SUFFIX,88frp.com'
-
+  
+  # Plex 直连域名
+  #- 'DOMAIN-SUFFIX,plex.direct'
+  
   # RustDesk
   #- 'DST-PORT,21115-21119'
   #- 'DOMAIN-SUFFIX,rustdesk.com'
-
+  
+  # 醒图
+  #- 'DOMAIN,mon.zijieapi.com'
+  
   # 银联商务
   - 'DOMAIN,api-mop.chinaums.com'
   - 'DOMAIN,api-mop-wh.open.chinaums.com'
@@ -41,3 +34,14 @@ payload:
 
   # 小米安装包检测
   - 'DOMAIN,api.installer.xiaomi.com'
+
+  # FRP 控制连接：先判断端口，再判断目标 IP
+  # 此规则不覆盖该 IP 的 HTTPS 443 流量
+  - 'AND,((DST-PORT,1210),(IP-CIDR,38.76.181.151/32))'
+
+  # 家中局域网访问家庭内网：先判断来源，再判断目标
+  - 'AND,((SRC-IP-CIDR,192.168.7.0/24),(IP-CIDR,192.168.7.0/24))'
+  - 'AND,((SRC-IP-CIDR,fddd::/60),(IP-CIDR6,fddd::/48))'
+
+  # 家庭公网入口 IP：保留域名解析到此 IP 后自动直连的能力
+  - 'IP-CIDR,103.82.54.72/32'
