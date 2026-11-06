@@ -4,21 +4,9 @@ payload:
   - 'DOMAIN-SUFFIX,plex.bz'
   - 'DOMAIN-SUFFIX,plexapp.com'
   
-  # YouTube 历史记录同步
+  # YouTube & Google Play 修复
   - 'DOMAIN,s.youtube.com'
-  
-  # Google Play 下载接口
-  - 'DOMAIN,services.googleapis.cn'
-  - 'DOMAIN,play.googleapis.com'
-  - 'DOMAIN,play-fe.googleapis.com'
-  - 'DOMAIN,android.clients.google.com'
-  - 'DOMAIN,android.apis.google.com'
-
-  # 安装包下载与 CDN
-  - 'DOMAIN-SUFFIX,xn--ngstr-lra8j.com'
-  - 'DOMAIN-SUFFIX,gvt1.com'
-  - 'DOMAIN,dl.google.com'
-  - 'DOMAIN,dl-ssl.google.com'
+  - 'DOMAIN_SUFFIX,googleapis.com'
   
   # 广告测试
   - 'DOMAIN,adblock.turtlecute.org'
