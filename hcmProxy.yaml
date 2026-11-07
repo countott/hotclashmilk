@@ -8,6 +8,7 @@ payload:
   - 'DOMAIN,s.youtube.com'
   - 'DOMAIN-SUFFIX,googleapis.com'
   - 'DOMAIN-SUFFIX,gvt2.com'
+  - 'DOMAIN-SUFFIX,googleusercontent.com'
   
   # 广告测试
   - 'DOMAIN,adblock.turtlecute.org'
