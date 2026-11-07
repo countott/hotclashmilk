@@ -7,6 +7,7 @@ payload:
   # YouTube & Google Play 修复
   - 'DOMAIN,s.youtube.com'
   - 'DOMAIN-SUFFIX,googleapis.com'
+  - 'DOMAIN-SUFFIX,gvt2.com'
   
   # 广告测试
   - 'DOMAIN,adblock.turtlecute.org'
