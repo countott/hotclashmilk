@@ -4,7 +4,7 @@ payload:
   - 'DOMAIN-SUFFIX,plex.bz'
   - 'DOMAIN-SUFFIX,plexapp.com'
   
-  # YouTube & Google Play 修复
+  # YouTube 历史记录 & Google Play 修复
   - 'DOMAIN,s.youtube.com'
   - 'DOMAIN-SUFFIX,googleapis.com'
   - 'DOMAIN-SUFFIX,googleapis.cn'
