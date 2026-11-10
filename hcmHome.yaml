@@ -5,7 +5,7 @@ payload:
   # 家庭内网
   - 'IP-CIDR,192.168.7.0/24,no-resolve'
   - 'IP-CIDR6,fddd::/48,no-resolve'
-  # WireGuard 隧道内网
   
+  # WireGuard 隧道内网
   - 'IP-CIDR,10.0.0.0/24,no-resolve'
   - 'IP-CIDR6,fd00::/64,no-resolve'
