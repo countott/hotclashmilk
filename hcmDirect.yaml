@@ -4,8 +4,8 @@ payload:
   - 'SRC-IP-CIDR,fd00::/64'
 
   # 家庭公网入口：仅根域和订阅，不扩大到整个域名后缀
-  - 'DOMAIN,lyx.fan'
-  - 'DOMAIN,sub.lyx.fan'
+  #- 'DOMAIN,lyx.fan'
+  #- 'DOMAIN,sub.lyx.fan'
 
   # 公司相关域名
   #- 'DOMAIN,aliding-log-cn-hangzhou.log.aliyuncs.com'
