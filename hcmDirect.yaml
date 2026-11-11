@@ -1,6 +1,6 @@
 payload:
-  # frpc 连 VPS 的控制端口
-  #- 'AND,((DST-PORT,1210),(IP-CIDR,38.76.181.151/32))'
+  # FRPC 香港 VPS 直连
+  - 'IP-CIDR,38.76.181.151/32'
   
   # 公司相关域名
   #- 'DOMAIN,aliding-log-cn-hangzhou.log.aliyuncs.com'
