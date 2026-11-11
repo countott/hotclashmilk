@@ -1,4 +1,7 @@
 payload:
+  # frpc 连 VPS 的控制端口
+  #- 'AND,((DST-PORT,1210),(IP-CIDR,38.76.181.151/32))'
+  
   # 公司相关域名
   #- 'DOMAIN,aliding-log-cn-hangzhou.log.aliyuncs.com'
   #- 'DOMAIN,beacon-api.aliyuncs.com'
@@ -22,14 +25,3 @@ payload:
 
   # 小米安装包检测
   - 'DOMAIN,api.installer.xiaomi.com'
-
-  # FRP 控制连接：先判断端口，再判断目标 IP
-  # 此规则不覆盖该 IP 的 HTTPS 443 流量
-  - 'AND,((DST-PORT,1210),(IP-CIDR,38.76.181.151/32))'
-
-  # 家中局域网访问家庭内网：先判断来源，再判断目标
-  - 'AND,((SRC-IP-CIDR,192.168.7.0/24),(IP-CIDR,192.168.7.0/24))'
-  - 'AND,((SRC-IP-CIDR,fddd::/60),(IP-CIDR6,fddd::/48))'
-
-  # 家庭公网入口 IP：保留域名解析到此 IP 后自动直连的能力
-  - 'IP-CIDR,103.82.54.72/32'
