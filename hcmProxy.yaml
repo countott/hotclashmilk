@@ -1,8 +1,6 @@
 payload:    
-  # TMDB / TVDB
-  - 'DOMAIN-SUFFIX,themoviedb.org'
-  - 'DOMAIN-SUFFIX,tmdb.org'
-  - 'DOMAIN-SUFFIX,thetvdb.com'
+  # Deepseek 临时工作
+  - 'DOMAIN,api.deepseek.com,墙外'
   
   # YouTube 历史记录
   - 'DOMAIN,s.youtube.com'
